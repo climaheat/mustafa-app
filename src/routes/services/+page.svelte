@@ -12,11 +12,20 @@
     import sanitairImage from "$lib/assets/sanitair.jpg";
     import gasleidingImage from "$lib/assets/gasleiding.jpg";
 
+    import aircoIcon from "phosphor-svelte/lib/Wind";
+    import warmtepompIcon from "phosphor-svelte/lib/ThermometerHot";
+    import warmWaterToestelIcon from "phosphor-svelte/lib/DeviceTabletSpeaker";
+    import gasketelIcon from "phosphor-svelte/lib/Cube";
+    import badkamerIcon from "phosphor-svelte/lib/Shower";
+    import centraleverwarmingIcon from "phosphor-svelte/lib/Thermometer";
+    import sanitairIcon from "phosphor-svelte/lib/Toilet";
+    import gasleidingIcon from "phosphor-svelte/lib/Pipe";
+
 </script>
 
 <Navbar/>
 
-<div class="gap-y-12 gap-x-8 px-64 pt-10 justify-items-center bg-brown-rust-50">
+<div class="gap-y-12 gap-x-8 px-48 pt-10 justify-items-center bg-brown-rust-50">
     <img 
         src="{logo}" 
         alt="Logo of heat/cold solutions company" 
@@ -24,11 +33,20 @@
     >
 
     <div id="service-airco" class="grid grid-cols-1 py-4">
-        <Service src={aircoImage} title="Airco Onderhoud/Plaatsing" body="We zijn experts als het gaat over onderhoud/plaatsing van Airco toestellen. Zo kunnen we snel en efficient uw airco in orde brengen."/>
+        <Service src={aircoImage} 
+        title="Airco Onderhoud/Plaatsing" 
+        body="We zijn experts als het gaat over onderhoud/plaatsing van Airco toestellen. Zo kunnen we snel en efficient uw airco in orde brengen."
+        serviceIcon={aircoIcon}
+        />
     </div>
 
     <div id="service-warmtepomp" class="grid grid-cols-1 py-4">
-        <Service src={warmtePompImage} title="Warmte Pomp Plaatsing" body="We plaatsen uw warmte pomp op professionele en efficiente wijze. Daarna controleren we deze zodat hij zeker goed werkt."/>
+        <Service 
+            src={warmtePompImage}
+            title="Warmte Pomp Plaatsing" 
+            body="We plaatsen uw warmte pomp op professionele en efficiente wijze. Daarna controleren we deze zodat hij zeker goed werkt."
+            serviceIcon={warmtepompIcon}
+            />
     </div>
 
     <div id="service-warmWaterToestel" class="grid grid-cols-1 py-4">
@@ -36,20 +54,22 @@
         title="Warm Water toestellen" 
         body="We installeren en onderhouden energiezuinige warmwatertoestellen op maat van elke klant. We adviseren eerlijk en gericht op comfort en duurzaamheid. Ook na de installatie zorgen we voor een betrouwbare service."
         imgClass="h-60"
+        serviceIcon={warmWaterToestelIcon}
         />
     </div>
 
     <div id="service-gasketel" class="grid grid-cols-1 py-4">
-        <Service src={gasketelImage} title="Herstelling gasketel" body="We verzorgen snelle en vakkundige herstellingen van gasketels, met focus op veiligheid en betrouwbaarheid."/>
+        <Service src={gasketelImage} title="Herstelling gasketel" body="We verzorgen snelle en vakkundige herstellingen van gasketels, met focus op veiligheid en betrouwbaarheid." serviceIcon={gasketelIcon}/>
     </div>
 
     <div id="service-badkamer" class="grid grid-cols-1 py-4">
-        <Service src={showerServiceImage} title="Badkamer Renovatie" body="We voeren complete badkamerrenovaties uit, van afbraak tot afwerking, met oog voor kwaliteit en comfort."/>
+        <Service src={showerServiceImage} title="Badkamer Renovatie" body="We voeren complete badkamerrenovaties uit, van afbraak tot afwerking, met oog voor kwaliteit en comfort." serviceIcon={badkamerIcon}/>
     </div>
 
 
     <div id="service-centraleVerwarming" class="grid grid-cols-1 py-4">
-        <Service src={centraleVerwarmingImage} title="Centrale Verwarming" body="We installeren, onderhouden en herstellen centrale verwarmingssystemen voor een efficiënte en comfortabele warmte in elke ruimte."/>
+        <Service src={centraleVerwarmingImage} title="Centrale Verwarming" body="We installeren, onderhouden en herstellen centrale verwarmingssystemen voor een efficiënte en comfortabele warmte in elke ruimte."
+        imgClass="h-100" serviceIcon={centraleverwarmingIcon}/>
     </div>
 
 
@@ -57,10 +77,11 @@
         <Service src={sanitairImage} 
         title="Sanitair" 
         body="We installeren en onderhouden sanitaire installaties met focus op kwaliteit, comfort en een perfecte afwerking."
+        serviceIcon={sanitairIcon}
         />
     </div>
 
     <div id="service-gasleiding" class="grid grid-cols-1 py-4">
-        <Service src={gasleidingImage} title="Gasleiding" body="We plaatsen, onderhouden en keuren gasleidingen veilig en betrouwbaar, volledig volgens de geldende normen."/>
+        <Service src={gasleidingImage} title="Gasleiding" body="We plaatsen, onderhouden en keuren gasleidingen veilig en betrouwbaar, volledig volgens de geldende normen." serviceIcon={gasleidingIcon}/>
     </div>
 </div>
