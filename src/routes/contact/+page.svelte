@@ -24,6 +24,8 @@
         <legend class="italic text-lg font-bold pb-8">Stuur een Bericht!</legend>
 
         <div class="grid grid-cols-2">
+          <input type="hidden" name="form-name" value="contact"/>
+
           <div>
             <div class="pb-4">
               <label for="voornaam">Voornaam*</label> <br/>
