@@ -19,7 +19,7 @@
     class="w-32 h-32 md:w-40 md:h-40 rounded-full col-span-2 mx-auto"
   >
 
-  <form method="POST" class="p-4 bg-brown-rust-200 rounded-2xl" data-netlify="true">
+  <form method="POST" class="p-4 bg-brown-rust-200 rounded-2xl" name="contact" data-netlify="true">
     <fieldset>
         <legend class="italic text-lg font-bold pb-8">Stuur een Bericht!</legend>
 
