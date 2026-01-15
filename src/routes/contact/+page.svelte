@@ -12,39 +12,57 @@
 
 <Navbar/>
 
-<div class="grid grid-cols-2 gap-y-16 gap-x-2 px-64 pt-10 justify-items-center bg-brown-rust-50">
+<div class="grid grid-cols-2 gap-y-16 gap-x-2 px-48 pt-10 justify-items-center bg-brown-rust-50 items-stretch">
   <img 
     src="{logo}" 
     alt="Logo of heat/cold solutions company" 
     class="w-32 h-32 md:w-40 md:h-40 rounded-full col-span-2 mx-auto"
   >
 
-  <div class="bg-brown-rust-200 rounded-3xl py-2 px-4 h-full">
-      <div class="bold text-2xl mt-4 mb-8 font-bold italic flex justify-center">
-        <Envelope class="size-20"/>
-      </div>
-    
-      <div>
-        Stuur ons gerust een mailtje met uw verzoek. U kan erop rekenen dat we uw mail snel en professioneel beantwoorden.
-      </div>
+  <form method="POST" class="p-4 bg-brown-rust-200 rounded-2xl" data-netlify="true">
+    <fieldset>
+        <legend class="italic text-lg font-bold pb-8">Stuur een Bericht!</legend>
 
-      <div class=mt-10>
-        <Button.Root
-          class="rounded-input bg-dark text-background shadow-mini hover:bg-dark/95 inline-flex
-          h-12 items-center justify-center px-[21px] text-[15px]
-          font-semibold active:scale-[0.98] active:transition-all"
-        >
-        <a href="www.google.com">
-          Mail: info@climaheatsolutions.be
+        <div class="grid grid-cols-2">
+          <div>
+            <div class="pb-4">
+              <label for="voornaam">Voornaam*</label> <br/>
+              <input type="text" id="voornaam" name="voornaam" class="mt-1 border-2 border-gray-700 bg-brown-rust-100" required maxlength="100">
+            </div>
+        
+            <div class="pb-4">
+                <label for="naam">Naam*</label> <br/>
+                <input type="text" id="naam" name="naam" class="mt-1 border-2 border-gray-700 bg-brown-rust-100" required maxlength="100">
+            </div>
+        
+            <div class="pb-4">
+                <label for="telefoonnummer">Telefoonnummer</label> <br/>
+                <input type="tel" id="telefoonnummer" name="telefoonnummer" class="mt-1 border-2 border-gray-700 bg-brown-rust-100" maxlength="20">
+            </div>
+            
+            <div class="pb-4">
+                <label for="email">Email*</label> <br/>
+                <input type="email" id="email" name="email" required class="mt-1 border-2 border-gray-700 bg-brown-rust-100" maxlength="100">
+            </div>
+          </div>
 
-        </a>
-        </Button.Root>
-      </div>
-  </div>
+          <div>
+            <div class="pb-4">
+              <label for="bericht">Bericht of vraag*</label> <br/>
+              <textarea id="bericht" name="bericht" rows="8" required class="mt-1 border-2 border-gray-700 bg-brown-rust-100" maxlength="2000"></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="p-4 bg-brown-rust-500 rounded-2xl">Versturen</button>
+            </div>
+          </div>
+        </div>
+    </fieldset>
+  </form>
 
   <img 
       src="{mailsImage}" 
-      alt="Shower"
+      alt="mails"
       class="rounded-3xl"
   >
 

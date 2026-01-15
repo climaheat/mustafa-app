@@ -36,7 +36,6 @@
         </a>
         </Button.Root>
       </div>
-
     </div>
     
 
@@ -78,6 +77,6 @@
       <img 
       src="{antwerp_picture}" 
       alt="Antwerp"
-      class="w-40 h-40 md:w-100 md:h-100 rounded-3xl mt-10 mb-20"
+      class="w-40 h-40 md:w-100 md:h-100 rounded-3xl mt-16 mb-20"
       >
   </div>

@@ -22,6 +22,6 @@
     <img 
     {src}
     alt="Logo of heat/cold solutions company" 
-    class="w-90 mx-auto rounded-2xl border-3 {imgClass}"
+    class="w-90 mx-auto rounded-2xl {imgClass}"
     >
 </div>
