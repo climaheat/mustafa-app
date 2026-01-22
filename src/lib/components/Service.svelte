@@ -8,7 +8,7 @@
     export let serviceIcon: any;
 </script>
 
-<div class="grid grid-cols-2 bg-brown-rust-200 px-10 py-4 rounded-3xl">
+<div class="grid grid-cols-2 bg-digital-blue-200 px-10 py-4 rounded-3xl">
     <div class="flex flex-col">
         <div class="bold text-2xl font-bold italic mt-8">
             {title}

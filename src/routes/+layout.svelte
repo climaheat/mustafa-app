@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-<div class="bg-brown-rust-50">
+<div class="bg-digital-blue-50">
 	<Navbar/>
 
 	<img

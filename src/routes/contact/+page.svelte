@@ -13,7 +13,7 @@
 
 
 <div class="grid grid-cols-2 gap-x-2 gap-y-16 px-12 md:px-48 pt-10 pb-16">
-	<form method="POST" class="rounded-2xl bg-brown-rust-200 p-4" name="contact" data-netlify="true">
+	<form method="POST" class="rounded-2xl bg-digital-blue-200 p-4" name="contact" data-netlify="true">
 		<fieldset>
 			<legend class="pb-8 text-lg font-bold italic">Stuur een Bericht!</legend>
 			<input type="hidden" name="form-name" value="contact" />
@@ -25,7 +25,7 @@
 						type="text"
 						id="voornaam"
 						name="voornaam"
-						class="mt-1 border-2 border-gray-700 bg-brown-rust-100"
+						class="mt-1 border-2 border-gray-700 bg-digital-blue-100"
 						required
 						maxlength="100"
 					/>
@@ -37,7 +37,7 @@
 						type="text"
 						id="naam"
 						name="naam"
-						class="mt-1 border-2 border-gray-700 bg-brown-rust-100"
+						class="mt-1 border-2 border-gray-700 bg-digital-blue-100"
 						required
 						maxlength="100"
 					/>
@@ -49,7 +49,7 @@
 						type="tel"
 						id="telefoonnummer"
 						name="telefoonnummer"
-						class="mt-1 border-2 border-gray-700 bg-brown-rust-100"
+						class="mt-1 border-2 border-gray-700 bg-digital-blue-100"
 						maxlength="20"
 					/>
 				</div>
@@ -61,7 +61,7 @@
 						id="email"
 						name="email"
 						required
-						class="mt-1 border-2 border-gray-700 bg-brown-rust-100 w-full"
+						class="mt-1 border-2 border-gray-700 bg-digital-blue-100 w-full"
 						maxlength="100"
 					/>
 				</div>
@@ -75,13 +75,13 @@
 						name="bericht"
 						rows="8"
 						required
-						class="mt-1 border-2 border-gray-700 bg-brown-rust-100 w-full"
+						class="mt-1 border-2 border-gray-700 bg-digital-blue-100 w-full"
 						maxlength="2000"
 					></textarea>
 				</div>
 
 				<div>
-					<button type="submit" class="rounded-2xl border-2 border-black bg-brown-rust-500 p-2 cursor-pointer"
+					<button type="submit" class="rounded-2xl border-2 border-black bg-digital-blue-400 p-2 cursor-pointer"
 						>Versturen</button
 					>
 				</div>
@@ -90,7 +90,7 @@
 	</form>
 
 	<div>
-		<div class="rounded-3xl bg-brown-rust-200 px-4 py-2">
+		<div class="rounded-3xl bg-digital-blue-200 px-4 py-2">
 			<div class="bold mt-4 mb-8 flex justify-center text-2xl font-bold italic">
 				<Phone class="size-20" />
 			</div>

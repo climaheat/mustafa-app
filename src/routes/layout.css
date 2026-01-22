@@ -98,6 +98,20 @@
     --color-brown-rust-800: #773d35;
     --color-brown-rust-900: #61342d;
     --color-brown-rust-950: #341a16;
+
+	--color-digital-blue-50: #e5f0ff;
+	--color-digital-blue-100: #cce0ff;
+	--color-digital-blue-200: #99c2ff;
+	--color-digital-blue-300: #66a3ff;
+	--color-digital-blue-400: #3385ff;
+	--color-digital-blue-500: #0066ff;
+	--color-digital-blue-600: #0052cc;
+	--color-digital-blue-700: #003d99;
+	--color-digital-blue-800: #002966;
+	--color-digital-blue-900: #001433;
+	--color-digital-blue-950: #000e24;
+
+
     
 	--color-background: var(--background);
 	--color-background-alt: var(--background-alt);

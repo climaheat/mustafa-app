@@ -8,9 +8,9 @@
   import CheckFat from "phosphor-svelte/lib/CheckFat";
 </script>
 
-<div class="px-64 pt-2 pb-10 justify-items-center bg-brown-rust-50">
+<div class="px-64 pt-2 pb-10 justify-items-center bg-digital-blue-50">
   <div class="grid grid-cols-2 gap-y-12 gap-x-8">
-    <div class="bg-brown-rust-200 rounded-3xl py-8 px-4 h-min">
+    <div class="bg-digital-blue-200 rounded-3xl py-8 px-4 h-min">
       <div class="bold text-2xl mt-4 mb-8 font-bold italic">
         Clima Heat Solutions
       </div>
@@ -39,7 +39,7 @@
       class="w-40 h-40 md:w-100 md:h-100 rounded-3xl mt-10"
     >
 
-    <div class="bg-brown-rust-200 rounded-3xl py-8 px-4 h-min mt-2">
+    <div class="bg-digital-blue-200 rounded-3xl py-8 px-4 h-min mt-2">
       <div class="bold text-2xl mt-4 mb-8 font-bold italic">
         Regio Antwerpen
       </div>
@@ -75,7 +75,7 @@
     >
   </div>
 
-  <div class="bg-brown-rust-200 rounded-3xl py-8 px-8 h-min mt-16">
+  <div class="bg-digital-blue-200 rounded-3xl py-8 px-8 h-min mt-16">
     <div class="bold text-2xl mt-4 mb-4 font-bold italic">
       Waarom Kiezen voor Ons in Antwerpen en Vlaanderen?
       <CheckFat class="ml-15 size-12 inline-block"/>

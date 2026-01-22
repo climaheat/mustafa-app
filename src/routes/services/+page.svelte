@@ -27,7 +27,7 @@
     <meta name="description" content="Professionele installatie, onderhoud, herstellingen en keuring met attest voor airco, verwarmingsketels, stookolieketels, warmwater toestellen en gasleidingen in Antwerpen en Vlaanderen." />
 </svelte:head>
 
-<div class="gap-y-12 gap-x-8 px-48 pt-2 justify-items-center bg-brown-rust-50">
+<div class="gap-y-12 gap-x-8 px-48 pt-2 justify-items-center bg-digital-blue-50">
     <div id="service-warmWaterToestel" class="grid grid-cols-1 py-10">
         <Service src={centraleVerwarmingImage} 
         title="Verwarming, Warm Water en Airco"
