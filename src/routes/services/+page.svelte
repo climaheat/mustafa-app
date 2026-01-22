@@ -82,7 +82,7 @@
         />
     </div>
 
-    <div id="service-gasleiding" class="grid grid-cols-1 py-4">
+    <div id="service-gasleiding" class="grid grid-cols-1 pt-4">
         <Service src={gasleidingImage}
          title="Gasleidingen"
          subtitle="Controle, Vernieuwing & Keuring met Attest"

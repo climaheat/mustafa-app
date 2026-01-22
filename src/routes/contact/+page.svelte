@@ -12,7 +12,7 @@
 
 
 
-<div class="grid grid-cols-2 gap-x-2 gap-y-16 px-12 md:px-48 pt-10 pb-16">
+<div class="grid grid-cols-2 gap-x-2 gap-y-16 px-12 md:px-48 pt-10">
 	<form method="POST" class="rounded-2xl bg-digital-blue-200 p-4" name="contact" data-netlify="true">
 		<fieldset>
 			<legend class="pb-8 text-lg font-bold italic">Stuur een Bericht!</legend>

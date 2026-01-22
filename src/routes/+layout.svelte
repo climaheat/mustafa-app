@@ -18,4 +18,10 @@
 	/>
 
 	{@render children()}
+
+	<div class="flex py-8">
+		<a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="mx-auto">
+			<i class="fab fa-instagram text-3xl"></i>
+		</a>
+	</div>
 </div>
