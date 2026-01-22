@@ -5,17 +5,11 @@
   import badkamer from "$lib/assets/badkamer.jpg";
   import { Button } from "bits-ui";
 
+  import CheckFat from "phosphor-svelte/lib/CheckFat";
 </script>
 
-  <Navbar/>
-
-  <div class="grid grid-cols-2 gap-y-12 gap-x-8 px-64 pt-10 justify-items-center bg-brown-rust-50">
-    <img 
-      src="{logo}" 
-      alt="Logo of heat/cold solutions company" 
-      class="w-32 h-32 md:w-40 md:h-40 rounded-full col-span-2 mx-auto"
-    >
-
+<div class="px-64 pt-2 pb-10 justify-items-center bg-brown-rust-50">
+  <div class="grid grid-cols-2 gap-y-12 gap-x-8">
     <div class="bg-brown-rust-200 rounded-3xl py-8 px-4 h-min">
       <div class="bold text-2xl mt-4 mb-8 font-bold italic">
         Clima Heat Solutions
@@ -74,9 +68,24 @@
       </div>
     </div>
 
-      <img 
-      src="{antwerp_picture}" 
-      alt="Antwerp"
-      class="w-40 h-40 md:w-100 md:h-100 rounded-3xl mt-16 mb-20"
-      >
+    <img 
+    src="{antwerp_picture}" 
+    alt="Antwerp"
+    class="w-40 h-40 md:w-100 md:h-100 rounded-3xl mt-16"
+    >
   </div>
+
+  <div class="bg-brown-rust-200 rounded-3xl py-8 px-8 h-min mt-16">
+    <div class="bold text-2xl mt-4 mb-4 font-bold italic">
+      Waarom Kiezen voor Ons in Antwerpen en Vlaanderen?
+      <CheckFat class="ml-15 size-12 inline-block"/>
+    </div>
+
+    <ul class="list-disc ml-5 col-span-3">
+      <li>Professionele installatie, onderhoud en herstellingen</li>
+      <li>Keuringen en attesten conform Vlaamse wetgeving</li>
+      <li>Energiezuinig, veilig en betrouwbaar</li>
+      <li>Snelle service in Antwerpen en heel Vlaanderen</li>
+    </ul>
+  </div>
+</div>
