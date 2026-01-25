@@ -106,43 +106,33 @@
           })}
 
           {@render ListItem({
+            href: "/services#service-centraleVerwarming",
+            title: "Verwarming",
+            className: "bg-gray-100"
+          })}
+          {@render ListItem({
             href: "/services#service-airco",
-            title: "Airco onderhoud/plaatsing",
-            className: "bg-gray-100"
-          })}
-          {@render ListItem({
-            href: "/services#service-warmtepomp",
-            title: "Warmte pomp plaatsing",
-            className: "bg-gray-100"
-          })}
-          {@render ListItem({
-            href: "/services#service-warmWaterToestel",
-            title: "Warm water toestellen",
+            title: "Airconditioning",
             className: "bg-gray-100"
           })}
           {@render ListItem({
             href: "/services#service-gasketel",
-            title: "Herstelling gasketel",
+            title: "Verwarmingsketel",
             className: "bg-gray-100"
           })}
           {@render ListItem({
-            href: "/services#service-badkamer",
-            title: "Badkamer renovatie",
+            href: "/services#service-stookolie",
+            title: "Stookolieketel",
             className: "bg-gray-100"
           })}
           {@render ListItem({
-            href: "/services#service-centraleVerwarming",
-            title: "Centrale verwarming",
-            className: "bg-gray-100"
-          })}
-          {@render ListItem({
-            href: "/services#service-sanitair",
-            title: "Sanitair",
+            href: "/services#service-warmwatertoestel",
+            title: "Warmwater Toestellen",
             className: "bg-gray-100"
           })}
           {@render ListItem({
             href: "/services#service-gasleiding",
-            title: "Gasleiding",
+            title: "Gasleidingen",
             className: "bg-gray-100"
           })}
         </ul>

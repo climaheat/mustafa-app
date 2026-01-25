@@ -10,7 +10,7 @@
 
 <div class="grid grid-cols-2 bg-digital-blue-200 px-10 py-4 rounded-3xl">
     <div class="flex flex-col">
-        <div class="bold text-2xl font-bold italic mt-8">
+        <div class="bold text-2xl font-bold italic mt-4">
             {title}
             <svelte:component this={serviceIcon} class="size-10 inline-block"/>
         </div>
@@ -26,7 +26,7 @@
 
         {#if voordelen.length > 0}
             <b>Voordelen:</b>
-            <ul class="list-disc pl-5">
+            <ul class="list-disc pl-5 mb-4">
                 {#each voordelen as voordeel}
                     <li>{voordeel}</li>
                 {/each}
