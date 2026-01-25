@@ -11,6 +11,7 @@
     import centraleVerwarmingImage from "$lib/assets/centraleverwarming.jpg";
     import sanitairImage from "$lib/assets/sanitair.jpg";
     import gasleidingImage from "$lib/assets/gasleiding.jpg";
+    import stookolieImage from "$lib/assets/stookolie.jpeg";
 
     import aircoIcon from "phosphor-svelte/lib/Wind";
     import warmtepompIcon from "phosphor-svelte/lib/ThermometerHot";
@@ -60,7 +61,7 @@
 
 
     <div id="service-centraleVerwarming" class="grid grid-cols-1 py-4">
-        <Service src={warmtePompImage} 
+        <Service src={stookolieImage} 
         title="Stookolieketel" 
         subtitle="Onderhoud, Herstellingen & Keuring"
         body="Een <b>stookolieketel</b> levert veilige en efficiënte verwarming. Regelmatig <b>onderhoud, herstellingen en keuring</b> zijn verplicht in Vlaanderen en zorgen voor een lage uitstoot en een betrouwbaar systeem. Na controle ontvang je een <b>officieel onderhouds- en verbrandingsattest.</b>"
