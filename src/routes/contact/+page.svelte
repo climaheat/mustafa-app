@@ -10,10 +10,8 @@
 	import PhoneNumber from '$lib/components/PhoneNumber.svelte';
 </script>
 
-
-
-<div class="grid grid-cols-2 gap-x-2 gap-y-16 px-12 md:px-48 pt-10">
-	<form method="POST" class="rounded-2xl bg-digital-blue-200 p-4" name="contact" data-netlify="true">
+<div class="grid grid-cols-2 gap-x-12 gap-y-16 px-64 pt-10">
+	<form method="POST" class="rounded-2xl bg-digital-blue-200 p-4 h-fit my-auto max-w-md w-md justify-self-end" name="contact" data-netlify="true">
 		<fieldset>
 			<legend class="pb-8 text-lg font-bold italic">Stuur een Bericht!</legend>
 			<input type="hidden" name="form-name" value="contact" />
@@ -89,7 +87,7 @@
 		</fieldset>
 	</form>
 
-	<div>
+	<div class="flex flex-col h-full max-w-md">
 		<div class="rounded-3xl bg-digital-blue-200 px-4 py-2">
 			<div class="bold mt-4 mb-8 flex justify-center text-2xl font-bold italic">
 				<Phone class="size-20" />
@@ -111,6 +109,6 @@
 			</div>
 		</div>
 
-		<img src={phoneImage} alt="Shower" class="mt-10 rounded-3xl" />
+		<img src={phoneImage} alt="Shower" class="mt-auto rounded-3xl" />
 	</div>
 </div>

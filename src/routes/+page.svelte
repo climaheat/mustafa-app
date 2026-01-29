@@ -9,8 +9,8 @@
 </script>
 
 <div class="justify-items-center bg-digital-blue-50 px-64 pt-2 pb-10">
-	<div class="grid grid-cols-2 gap-x-8 gap-y-12">
-		<div class="h-min rounded-3xl bg-digital-blue-200 px-4 py-8">
+	<div class="grid grid-cols-2 place-items-center gap-x-8 gap-y-12">
+		<div class="h-min rounded-3xl bg-digital-blue-200 px-4 py-8 my-auto">
 			<div class="bold mt-4 mb-8 text-2xl font-bold italic">Clima Heat Solutions</div>
 
 			<div>
@@ -30,10 +30,10 @@
 			</div>
 		</div>
 
-		<img src={badkamer} alt="Shower" class="mt-10 h-40 w-40 rounded-3xl md:h-100 md:w-100" />
+		<img src={badkamer} alt="Shower" class="h-40 w-40 rounded-3xl md:h-100 md:w-100" />
 	</div>
 
-	<div class="mt-16 h-min rounded-3xl bg-digital-blue-200 px-8 py-8">
+	<div class="mt-16 h-min w-fit mx-auto rounded-3xl bg-digital-blue-200 px-8 py-8">
 		<div class="bold mt-4 mb-4 text-2xl font-bold italic">
 			Waarom Kiezen voor Ons in Antwerpen en Vlaanderen?
 			<CheckFat class="ml-2 inline-block size-12" />

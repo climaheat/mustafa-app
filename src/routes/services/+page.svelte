@@ -28,8 +28,8 @@
     <meta name="description" content="Professionele installatie, onderhoud, herstellingen en keuring met attest voor airco, verwarmingsketels, stookolieketels, warmwater toestellen en gasleidingen in Antwerpen en Vlaanderen." />
 </svelte:head>
 
-<div class="gap-y-12 gap-x-8 px-48 pt-2 justify-items-center bg-digital-blue-50">
-    <div id="service-centraleVerwarming" class="grid grid-cols-1 py-10">
+<div class="gap-y-12 gap-x-8 px-64 pt-2 justify-items-center bg-digital-blue-50">
+    <div id="service-centraleVerwarming" class="grid grid-cols-1 py-8">
         <Service src={centraleVerwarmingImage} 
         title="Verwarming, Warm Water en Airco"
         subtitle="Plaatsing, Onderhoud, Herstellingen & Keuring met Attest in Antwerpen en Vlaanderen"
@@ -40,7 +40,7 @@
         />
     </div>
 
-    <div id="service-airco" class="grid grid-cols-1 py-4">
+    <div id="service-airco" class="grid grid-cols-1 py-8">
         <Service src={aircoImage}
         title="Airconditioning"
         subtitle="Plaatsing & Onderhoud in Antwerpen en Vlaanderen"
@@ -50,7 +50,7 @@
         />
     </div>
 
-    <div id="service-gasketel" class="grid grid-cols-1 py-4">
+    <div id="service-gasketel" class="grid grid-cols-1 py-8">
         <Service src={gasketelImage}
          title="Verwarmingsketel"
          subtitle="Plaatsing, Onderhoud, Herstellingen & Attest"
@@ -60,7 +60,7 @@
     </div>
 
 
-    <div id="service-stookolie" class="grid grid-cols-1 py-4">
+    <div id="service-stookolie" class="grid grid-cols-1 py-8">
         <Service src={stookolieImage} 
         title="Stookolieketel" 
         subtitle="Onderhoud, Herstellingen & Keuring"
@@ -72,7 +72,7 @@
     </div>
 
 
-    <div id="service-warmwatertoestel" class="grid grid-cols-1 py-4">
+    <div id="service-warmwatertoestel" class="grid grid-cols-1 py-8">
         <Service src={warmWaterToestelImage} 
         title="Warmwater Toestellen" 
         subtitle="Gas & Elektriciteit"
@@ -83,7 +83,7 @@
         />
     </div>
 
-    <div id="service-gasleiding" class="grid grid-cols-1 pt-4">
+    <div id="service-gasleiding" class="grid grid-cols-1 py-8">
         <Service src={gasleidingImage}
          title="Gasleidingen"
          subtitle="Controle, Vernieuwing & Keuring met Attest"
