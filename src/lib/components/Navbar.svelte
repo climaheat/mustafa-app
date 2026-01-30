@@ -69,7 +69,7 @@
 
 
  
-<NavigationMenu.Root class="relative z-10 flex w-full justify-center bg-digital-blue-100 h-12">
+<NavigationMenu.Root class="fixed z-1000 flex w-full justify-center bg-digital-blue-100 h-12">
   <NavigationMenu.List
     class="group flex list-none items-center justify-center p-1"
   >

@@ -10,7 +10,7 @@
 	import PhoneNumber from '$lib/components/PhoneNumber.svelte';
 </script>
 
-<div class="grid grid-cols-2 gap-x-12 gap-y-16 px-64 pt-10">
+<div class="grid grid-cols-2 gap-x-12 gap-y-16 px-64 pt-10 relative z-100">
 	<form method="POST" class="rounded-2xl bg-digital-blue-200 p-4 h-fit my-auto max-w-md w-md justify-self-end" name="contact" data-netlify="true">
 		<fieldset>
 			<legend class="pb-8 text-lg font-bold italic">Stuur een Bericht!</legend>

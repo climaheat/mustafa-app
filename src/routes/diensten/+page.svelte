@@ -35,7 +35,7 @@
         Onze diensten omvatten gasketels, stookolieketels, warmwatertoestellen en gasleidingen. Elk project wordt uitgevoerd met aandacht voor veiligheid, kwaliteit en energie-efficiëntie, volgens de geldende normen.
     </div>
 
-    <div id="service-gasketel" class="grid grid-cols-1 py-8">
+    <div id="service-gasketel" class="grid grid-cols-1 py-8 relative z-100">
         <Service src={gasketelImage}
          title="Verwarmingsketel"
          subtitle="Plaatsing, Onderhoud, Herstellingen & Attest"
@@ -45,7 +45,7 @@
     </div>
 
 
-    <div id="service-stookolie" class="grid grid-cols-1 py-8">
+    <div id="service-stookolie" class="grid grid-cols-1 py-8 relative z-100">
         <Service src={stookolieImage} 
         title="Stookolieketel" 
         subtitle="Onderhoud, Herstellingen & Keuring"
@@ -57,7 +57,7 @@
     </div>
 
 
-    <div id="service-warmwatertoestel" class="grid grid-cols-1 py-8">
+    <div id="service-warmwatertoestel" class="grid grid-cols-1 py-8 relative z-100">
         <Service src={warmWaterToestelImage} 
         title="Warmwater Toestellen" 
         subtitle="Gas & Elektriciteit"
@@ -68,7 +68,7 @@
         />
     </div>
 
-    <div id="service-gasleiding" class="grid grid-cols-1 py-8">
+    <div id="service-gasleiding" class="grid grid-cols-1 py-8 relative z-100">
         <Service src={gasleidingImage}
          title="Gasleidingen"
          subtitle="Controle, Vernieuwing & Keuring met Attest"
