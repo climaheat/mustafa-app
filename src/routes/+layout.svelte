@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-<div class="absolute bg-digital-blue-50 w-screen">
+<div class="absolute bg-digital-blue-50 w-full">
 	<Navbar />
 
 	<img
