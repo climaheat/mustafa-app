@@ -86,7 +86,7 @@
       <NavigationMenu.Trigger
         class="hover:text-accent-foreground focus-visible:bg-muted focus-visible:text-accent-foreground data-[state=open]:shadow-mini dark:hover:bg-muted dark:data-[state=open]:bg-muted focus-visible:outline-hidden group inline-flex h-8 w-max items-center justify-center rounded-[7px] bg-transparent px-4 py-2 text-sm font-medium transition-colors hover:bg-white disabled:pointer-events-none disabled:opacity-50 data-[state=open]:bg-white"
       >
-        Onze Services
+        Onze Diensten
         <CaretDown
           class="relative top-[1px] ml-1 size-3 transition-transform duration-200 group-data-[state=open]:rotate-180"
           aria-hidden="true"
@@ -99,39 +99,29 @@
           class="m-0 grid grid-cols-2 gap-2.5 p-3 sm:w-[500px]"
         >
           {@render ListItem({
-            href: "/services",
-            title: "Bekijk alle services",
+            href: "/diensten",
+            title: "Bekijk alle diensten",
             className: "bg-gray-300",
             liClassName: "col-span-2 text-center"
           })}
 
           {@render ListItem({
-            href: "/services#service-centraleVerwarming",
-            title: "Verwarming",
-            className: "bg-gray-100"
-          })}
-          {@render ListItem({
-            href: "/services#service-airco",
-            title: "Airconditioning",
-            className: "bg-gray-100"
-          })}
-          {@render ListItem({
-            href: "/services#service-gasketel",
+            href: "/diensten#service-gasketel",
             title: "Verwarmingsketel",
             className: "bg-gray-100"
           })}
           {@render ListItem({
-            href: "/services#service-stookolie",
+            href: "/diensten#service-stookolie",
             title: "Stookolieketel",
             className: "bg-gray-100"
           })}
           {@render ListItem({
-            href: "/services#service-warmwatertoestel",
+            href: "/diensten#service-warmwatertoestel",
             title: "Warmwater Toestellen",
             className: "bg-gray-100"
           })}
           {@render ListItem({
-            href: "/services#service-gasleiding",
+            href: "/diensten#service-gasleiding",
             title: "Gasleidingen",
             className: "bg-gray-100"
           })}
