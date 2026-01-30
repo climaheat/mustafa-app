@@ -8,15 +8,21 @@
 	import CheckFat from 'phosphor-svelte/lib/CheckFat';
 </script>
 
-<div class="justify-items-center bg-digital-blue-50 px-64 pt-2 pb-10">
+<div class="justify-items-center bg-digital-blue-50 px-16 pt-2 pb-10">
 	<div class="grid grid-cols-2 place-items-center gap-x-8 gap-y-12">
 		<div class="h-min rounded-3xl bg-digital-blue-200 px-4 py-8 my-auto">
 			<div class="bold mt-4 mb-8 text-2xl font-bold italic">Clima Heat Solutions</div>
 
 			<div>
-				Wij staan voor kwaliteit, vakmanschap en betrouwbare service. Ons team helpt u graag met
-				duurzame en efficiënte oplossingen voor uw woning of project. Aarzel niet om ons te
-				contacteren — wij denken met u mee.
+				Clima Heat Solutions - Uw specialist in herstellingen & onderhoud <br/><br/>
+
+Bij Clima Heat Solutions bent u aan het juiste adres voor herstellingen en onderhoud van gasketels, stookolieketels en warmwater­toestellen. Wij staan garant voor kwaliteit, vakmanschap en een betrouwbare service waarop u kunt rekenen, het hele jaar door. <br/><br/>
+
+Een goed onderhouden installatie betekent meer comfort, een lager energieverbruik en een langere levensduur. Daarom werken wij nauwkeurig, veilig en volgens de geldende normen. Of het nu gaat om een dringende herstelling, een periodiek onderhoud of een controle van uw installatie: wij denken met u mee en bieden een efficiënte oplossing op maat.<br/><br/>
+
+Particulier of professioneel project? U kunt rekenen op een ervaren vakman, duidelijke communicatie en een snelle service.<br/><br/>
+
+Aarzel niet om ons te contacteren voor onderhoud, herstellingen of advies — Clima Heat Solutions zorgt voor warmte en comfort zonder zorgen.
 			</div>
 
 			<div class="mt-10">

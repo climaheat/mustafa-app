@@ -24,30 +24,15 @@
 </script>
 
 <svelte:head>
-	<title>Verwarming, Airco & Warm Water - Plaatsing & Onderhoud Antwerpen & Vlaanderen</title>
+	<title>Verwarming, Airco & Warm Water - Plaatsing & Onderhoud</title>
     <meta name="description" content="Professionele installatie, onderhoud, herstellingen en keuring met attest voor airco, verwarmingsketels, stookolieketels, warmwater toestellen en gasleidingen in Antwerpen en Vlaanderen." />
 </svelte:head>
 
 <div class="gap-y-12 gap-x-8 px-64 pt-2 justify-items-center bg-digital-blue-50">
-    <div id="service-centraleVerwarming" class="grid grid-cols-1 py-8">
-        <Service src={centraleVerwarmingImage} 
-        title="Verwarming, Warm Water en Airco"
-        subtitle="Plaatsing, Onderhoud, Herstellingen & Keuring met Attest in Antwerpen en Vlaanderen"
-        body="Wij zorgen voor <b>comfort, veiligheid en energie-efficiëntie</b> in woningen en bedrijven in <b>Antwerpen</b> en in heel <b>Vlaanderen</b>. Onze diensten omvatten <b>airco, verwarmingsketels, stookolieketels, warmwater toestellen en gasleidingen</b>, inclusief <b>plaatsing, onderhoud, herstellingen en keuring met attest.</b>"
-        imgClass="h-90"
-        serviceIcon={centraleverwarmingIcon}
-        voordelen={[]}
-        />
-    </div>
+    <div class="px-8 w-2lg max-w-2lg">
+        Clima Heat Solutions biedt een complete service voor verwarming, warm water en airconditioning in Antwerpen en heel Vlaanderen. Wij verzorgen plaatsing, onderhoud, herstellingen en keuringen met attest voor zowel woningen als bedrijven. <br/> <br/>
 
-    <div id="service-airco" class="grid grid-cols-1 py-8">
-        <Service src={aircoImage}
-        title="Airconditioning"
-        subtitle="Plaatsing & Onderhoud in Antwerpen en Vlaanderen"
-        body="Een <b>airco laten plaatsen</b> zorgt voor een aangename temperatuur het hele jaar door. Professionele <b>airco-installatie</b> garandeert veilige werking, laag energieverbruik en maximale prestaties, zowel in Antwerpen als in de rest van Vlaanderen. <br> <br> <b>Onderhoud van de airco</b> is essentieel om stof, bacteriën en schimmels te voorkomen en de efficiëntie te behouden. Jaarlijks onderhoud door een erkend technieker wordt aanbevolen."
-        serviceIcon={aircoIcon}
-        voordelen={["Energiezuinig koelen en verwarmen", "Betere luchtkwaliteit", "Stil en betrouwbaar", "Langere levensduur van de airco"]}
-        />
+        Onze diensten omvatten gasketels, stookolieketels, warmwatertoestellen en gasleidingen. Elk project wordt uitgevoerd met aandacht voor veiligheid, kwaliteit en energie-efficiëntie, volgens de geldende normen.
     </div>
 
     <div id="service-gasketel" class="grid grid-cols-1 py-8">
