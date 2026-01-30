@@ -86,7 +86,7 @@
       <NavigationMenu.Trigger
         class="hover:text-accent-foreground focus-visible:bg-muted focus-visible:text-accent-foreground data-[state=open]:shadow-mini dark:hover:bg-muted dark:data-[state=open]:bg-muted focus-visible:outline-hidden group inline-flex h-8 w-max items-center justify-center rounded-[7px] bg-transparent px-4 py-2 text-sm font-medium transition-colors hover:bg-white disabled:pointer-events-none disabled:opacity-50 data-[state=open]:bg-white"
       >
-        Onze Diensten
+        Onze diensten
         <CaretDown
           class="relative top-[1px] ml-1 size-3 transition-transform duration-200 group-data-[state=open]:rotate-180"
           aria-hidden="true"
@@ -133,7 +133,7 @@
         class="hover:text-accent-foreground focus:bg-muted focus:text-accent-foreground data-[state=open]:shadow-mini dark:hover:bg-muted dark:data-[state=open]:bg-muted focus:outline-hidden group inline-flex h-8 w-max items-center justify-center rounded-[7px] bg-transparent px-4 py-2 text-sm font-medium transition-colors hover:bg-white disabled:pointer-events-none disabled:opacity-50 data-[state=open]:bg-white"
         href="/contact"
       >
-        <span class="hidden sm:inline"> Contacteer Ons </span>
+        <span class="hidden sm:inline"> Contacteer ons </span>
         <span class="inline sm:hidden"> Contact </span>
       </NavigationMenu.Link>
     </NavigationMenu.Item>
