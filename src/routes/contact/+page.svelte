@@ -10,8 +10,13 @@
 	import PhoneNumber from '$lib/components/PhoneNumber.svelte';
 </script>
 
-<div class="grid grid-cols-2 gap-x-12 gap-y-16 px-64 pt-10 relative z-100">
-	<form method="POST" class="rounded-2xl bg-digital-blue-200 p-4 h-fit my-auto max-w-md w-md justify-self-end" name="contact" data-netlify="true">
+<div class="relative z-100 grid grid-cols-2 gap-x-12 gap-y-16 px-64 pt-10">
+	<form
+		method="POST"
+		class="my-auto h-fit w-md max-w-md justify-self-end rounded-2xl bg-digital-blue-200 p-4"
+		name="contact"
+		data-netlify="true"
+	>
 		<fieldset>
 			<legend class="pb-8 text-lg font-bold italic">Stuur een Bericht!</legend>
 			<input type="hidden" name="form-name" value="contact" />
@@ -59,7 +64,7 @@
 						id="email"
 						name="email"
 						required
-						class="mt-1 border-2 border-gray-700 bg-digital-blue-100 w-full"
+						class="mt-1 w-full border-2 border-gray-700 bg-digital-blue-100"
 						maxlength="100"
 					/>
 				</div>
@@ -73,13 +78,15 @@
 						name="bericht"
 						rows="8"
 						required
-						class="mt-1 border-2 border-gray-700 bg-digital-blue-100 w-full"
+						class="mt-1 w-full border-2 border-gray-700 bg-digital-blue-100"
 						maxlength="2000"
 					></textarea>
 				</div>
 
 				<div>
-					<button type="submit" class="rounded-2xl border-2 border-black bg-digital-blue-400 p-2 cursor-pointer"
+					<button
+						type="submit"
+						class="cursor-pointer rounded-2xl border-2 border-black bg-digital-blue-400 p-2"
 						>Versturen</button
 					>
 				</div>
@@ -87,7 +94,7 @@
 		</fieldset>
 	</form>
 
-	<div class="flex flex-col h-full max-w-md">
+	<div class="flex h-full max-w-md flex-col">
 		<div class="rounded-3xl bg-digital-blue-200 px-4 py-2">
 			<div class="bold mt-4 mb-8 flex justify-center text-2xl font-bold italic">
 				<Phone class="size-20" />
@@ -109,6 +116,12 @@
 			</div>
 		</div>
 
-		<img src={phoneImage} alt="Shower" class="mt-auto rounded-3xl" />
+		<div class="mt-auto">
+			<img src={phoneImage} alt="Shower" class="rounded-3xl" />
+
+			<p class="mx-auto mt-2 text-lg font-semibold text-center">
+				Stuur een mail: <a href="mailto:info@climaheatsolutions.be" class="text-blue-600 hover:underline">info@climaheatsolutions.be</a>
+			</p>
+		</div>
 	</div>
 </div>

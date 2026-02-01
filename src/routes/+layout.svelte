@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-<div class="absolute bg-digital-blue-50 w-full">
+<div class="absolute w-full bg-digital-blue-50">
 	<Navbar />
 
 	<img
@@ -59,11 +59,15 @@
 		</a>
 	</div>
 
+	<svg class="fixed bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+		><path
+			fill="#cce0ff"
+			fill-opacity="0.8"
+			d="M0,128L48,154.7C96,181,192,235,288,261.3C384,288,480,288,576,250.7C672,213,768,139,864,106.7C960,75,1056,85,1152,106.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+		></path></svg
+	>
 
-	<svg class="fixed bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cce0ff" fill-opacity="0.8" d="M0,128L48,154.7C96,181,192,235,288,261.3C384,288,480,288,576,250.7C672,213,768,139,864,106.7C960,75,1056,85,1152,106.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-
-
-	<div class="fixed bottom-5 right-5">
+	<div class="fixed right-5 bottom-5">
 		<Button.Root
 			class="h-12 items-center justify-center rounded-full bg-dark
 			px-[21px] text-[15px] font-semibold text-background shadow-mini
@@ -77,7 +81,7 @@
 
 	{@render children()}
 
-	<div class="flex py-8 z-100 relative">
+	<div class="relative z-100 flex py-8">
 		<a
 			href="https://www.instagram.com/climaheatsolutions/"
 			target="_blank"
@@ -87,5 +91,17 @@
 		>
 			<i class="fab fa-instagram text-3xl"></i>
 		</a>
+	</div>
+
+	<div class="relative z-100 flex py-2">
+		<p class="mx-auto text-lg">
+			climaheatsolutions - BE1001.682.376 - Maurits Sabbelaan 9, 2020 Antwerpen
+		</p>
+	</div>
+
+	<div class="relative z-100 flex py-2">
+		<p class="mx-auto text-sm">
+			Disclaimer: de inhoud van deze website is louter informatief. Aan de informatie kunnen geen rechten worden ontleend en het gebruik ervan schept geen enkele aansprakelijkheid of contractuele verbintenis.
+		</p>
 	</div>
 </div>
