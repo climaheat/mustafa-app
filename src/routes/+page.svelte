@@ -38,7 +38,7 @@
           px-5.25 text-[15px] font-semibold text-background shadow-mini
           hover:bg-dark/95 active:scale-[0.98] active:transition-all"
 				>
-					<a href="/services"> Bekijk alle services </a>
+					<a href="/diensten"> Bekijk alle diensten </a>
 				</Button.Root>
 			</div>
 		</div>

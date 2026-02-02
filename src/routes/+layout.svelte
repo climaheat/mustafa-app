@@ -24,7 +24,7 @@
 	<div class="wabtn" id="wabutton">
 		<a
 			target="_self"
-			href="https://wa.me/+32486828532"
+			href="https://wa.me/+32476073612"
 			style=" cursor: pointer;height: 48px;width: auto;padding: 7px 7px 7px 7px;position: fixed !important;color: #fff;bottom: 80px;right: unset;display: flex;text-decoration: none;font-size: 18px;font-weight: 600;font-family: sans-serif;align-items: center;z-index: 999999999 !important;background-color: #00E785;box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.4);border-radius: 100px;animation: pulse 2.5s ease infinite;right: 32px;"
 			title=""
 		>
@@ -95,12 +95,12 @@
 
 	<div class="relative z-100 flex py-2">
 		<p class="mx-auto text-lg">
-			climaheatsolutions - BE1001.682.376 - Maurits Sabbelaan 9, 2020 Antwerpen
+			climaheatsolutions - BE1001.682.376 - Hendriklei 22 2020 Antwerpen
 		</p>
 	</div>
 
 	<div class="relative z-100 flex py-2">
-		<p class="mx-auto text-sm">
+		<p class="mx-auto text-xs">
 			Disclaimer: de inhoud van deze website is louter informatief. Aan de informatie kunnen geen rechten worden ontleend en het gebruik ervan schept geen enkele aansprakelijkheid of contractuele verbintenis.
 		</p>
 	</div>
