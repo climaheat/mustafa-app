@@ -28,8 +28,8 @@
     <meta name="description" content="Professionele installatie, onderhoud, herstellingen en keuring met attest voor verwarmingsketels, stookolieketels, warmwater toestellen en gasleidingen in Antwerpen en Vlaanderen." />
 </svelte:head>
 
-<div class="gap-y-12 gap-x-8 px-64 pt-2 justify-items-center bg-digital-blue-50">
-    <div class="px-8 w-2lg max-w-2lg">
+<div class="gap-y-12 gap-x-8 px-2 md:px-64 pt-2 justify-items-center bg-digital-blue-50">
+    <div class="px-8 w-2lg max-w-2lg text-justify">
         Clima Heat Solutions biedt een complete service voor verwarming, warm water in Antwerpen en heel Vlaanderen. Wij verzorgen plaatsing, onderhoud, herstellingen en keuringen met attest voor zowel woningen als bedrijven. <br/> <br/>
 
         Onze diensten omvatten gasketels, stookolieketels, warmwatertoestellen en gasleidingen. Elk project wordt uitgevoerd met aandacht voor veiligheid, kwaliteit en energie-efficiëntie, volgens de geldende normen.
