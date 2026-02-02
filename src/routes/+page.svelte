@@ -8,9 +8,9 @@
 	import CheckFat from 'phosphor-svelte/lib/CheckFat';
 </script>
 
-<div class="justify-items-center bg-digital-blue-50 px-48 pt-2 pb-10">
-	<div class="relative z-10 grid grid-cols-10 place-items-center gap-x-8 gap-y-12 mt-4">
-		<div class="my-auto h-min rounded-3xl bg-digital-blue-200 px-4 py-8 col-span-5">
+<div class="justify-items-center bg-digital-blue-50 px-2 md:px-48 pt-2 pb-10">
+	<div class="relative z-10 grid grid-cols-10 place-items-center gap-x-8 gap-y-6 md:gap-y-12 md:mt-4">
+		<div class="my-0 md:my-auto h-min rounded-3xl bg-digital-blue-200 px-4 py-2 md:py-8 col-span-10 md:col-span-5">
 			<div class="bold mt-4 mb-8 text-2xl font-bold italic">Clima Heat Solutions</div>
 
 			<div>
@@ -43,10 +43,10 @@
 			</div>
 		</div>
 
-		<img src={badkamer} alt="Shower" class="h-40 w-40 rounded-3xl md:h-100 md:w-100 col-span-5" />
+		<img src={badkamer} alt="Shower" class="rounded-3xl w-full h-full md:h-100 md:w-100 col-span-10 md:col-span-5" />
 	</div>
 
-	<div class="mx-auto mt-16 h-min w-fit rounded-3xl bg-digital-blue-200 px-8 py-8 relative z-100">
+	<div class="mx-auto mt-6 md:mt-16 h-min w-fit rounded-3xl bg-digital-blue-200 px-8 py-8 relative z-10">
 		<div class="bold mt-4 mb-4 text-2xl font-bold italic">
 			Waarom Kiezen voor Ons in Antwerpen en Vlaanderen?
 			<CheckFat class="ml-2 inline-block size-12" />

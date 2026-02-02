@@ -67,7 +67,7 @@
 		></path></svg
 	>
 
-	<div class="fixed right-5 bottom-5">
+	<div class="fixed right-5 bottom-5 z-100">
 		<Button.Root
 			class="h-12 items-center justify-center rounded-full bg-dark
 			px-[21px] text-[15px] font-semibold text-background shadow-mini
@@ -81,7 +81,7 @@
 
 	{@render children()}
 
-	<div class="relative z-100 flex py-8">
+	<div class="relative z-100 flex pb-2 md:py-8">
 		<a
 			href="https://www.instagram.com/climaheatsolutions/"
 			target="_blank"
@@ -93,13 +93,13 @@
 		</a>
 	</div>
 
-	<div class="relative z-100 flex py-2">
+	<div class="relative z-100 flex py-2 px-2 md:px-0 text-justify">
 		<p class="mx-auto text-lg">
 			climaheatsolutions - BE1001.682.376 - Hendriklei 22 2020 Antwerpen
 		</p>
 	</div>
 
-	<div class="relative z-100 flex py-2">
+	<div class="relative z-100 flex py-2 px-2 md:px-0 text-justify">
 		<p class="mx-auto text-xs">
 			Disclaimer: de inhoud van deze website is louter informatief. Aan de informatie kunnen geen rechten worden ontleend en het gebruik ervan schept geen enkele aansprakelijkheid of contractuele verbintenis.
 		</p>
