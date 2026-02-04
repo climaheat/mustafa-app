@@ -94,7 +94,7 @@
 		</fieldset>
 	</form>
 
-	<div class="flex h-full md:max-w-md w-full flex-col col-span-2 mb-8">
+	<div class="flex h-full md:max-w-md w-full flex-col col-span-2 md:col-span-1 mb-8">
 		<div class="rounded-3xl bg-digital-blue-200 px-4 py-2 w-full">
 			<div class="bold mt-4 mb-8 flex justify-center text-2xl font-bold italic">
 				<Phone class="size-20" />

@@ -67,7 +67,7 @@
 		></path></svg
 	>
 
-	<div class="fixed right-5 bottom-5 z-100">
+	<div class="fixed right-5 bottom-5 z-9999">
 		<Button.Root
 			class="h-12 items-center justify-center rounded-full bg-dark
 			px-[21px] text-[15px] font-semibold text-background shadow-mini
