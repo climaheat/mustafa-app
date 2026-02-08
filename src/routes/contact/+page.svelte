@@ -8,7 +8,15 @@
 	import Envelope from 'phosphor-svelte/lib/Envelope';
 	import Phone from 'phosphor-svelte/lib/Phone';
 	import PhoneNumber from '$lib/components/PhoneNumber.svelte';
+
+	export let pageTitle = "Contacteer ons";
+  	export let pageDescription = "Hier vind je onze contactgegevens voor e-mail en telefoon";
 </script>
+
+<svelte:head>
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
+</svelte:head>
 
 <div class="relative z-100 grid grid-cols-2 gap-x-12 gap-y-4 md:gap-y-16 px-2 md:px-64 pt-4 md:pt-10">
 	<form

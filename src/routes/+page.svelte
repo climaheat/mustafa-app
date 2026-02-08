@@ -6,7 +6,15 @@
 	import { Button } from 'bits-ui';
 
 	import CheckFat from 'phosphor-svelte/lib/CheckFat';
+
+	export let pageTitle = "Home";
+  	export let pageDescription = "Welkom bij climaheatsolutions. Hier vind je informatie over onze diensten.";
 </script>
+
+<svelte:head>
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
+</svelte:head>
 
 <div class="justify-items-center bg-digital-blue-50 px-2 md:px-48 pt-2 pb-10">
 	<div class="relative z-10 grid grid-cols-10 place-items-center gap-x-8 gap-y-6 md:gap-y-12 md:mt-4">

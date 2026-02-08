@@ -1,7 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import Navbar from '$lib/components/Navbar.svelte';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/logo.jpeg';
 	import whatsAppButtonImage from '$lib/assets/WhatsAppButtonGreenSmall.png';
 	import logo from '$lib/assets/logo.jpeg';
 	import { Button } from 'bits-ui';
@@ -12,6 +12,7 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
+
 <div class="absolute w-full bg-digital-blue-50">
 	<Navbar />
 
