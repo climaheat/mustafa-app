@@ -74,7 +74,7 @@
 			px-[21px] text-[15px] font-semibold text-background shadow-mini
 			hover:bg-dark/95 active:scale-[0.98] active:transition-all"
 		>
-			<a href="tel:+32486828532">
+			<a href="tel:+32476073612">
 				<Phone class="size-7" />
 			</a>
 		</Button.Root>
