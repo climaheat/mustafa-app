@@ -91,13 +91,15 @@
 					></textarea>
 				</div>
 
-				<div>
+				<div class="mb-1">
 					<button
 						type="submit"
 						class="cursor-pointer rounded-2xl border-2 border-black bg-digital-blue-400 p-2"
 						>Versturen</button
 					>
 				</div>
+
+				Uw privacy telt: gegevens dienen enkel voor contact en worden daarna verwijderd
 			</div>
 		</fieldset>
 	</form>

@@ -6,6 +6,9 @@
     export let voordelen: string[];
     export let imgClass: string = "";
     export let serviceIcon: any;
+    export let priceString: string = "";
+    export let priceString2: string = "";
+    export let priceString3: string = "";
 </script>
 
 <div class="grid grid-cols-2 bg-digital-blue-200 px-4 md:px-10 py-4 rounded-3xl">
@@ -17,6 +20,21 @@
 
         <div class="bold text-lg font-bold italic mt-1">
             {subtitle}
+        </div>
+
+        <div class="text-md mt-1">
+            {#if priceString}
+                <br/>
+                {priceString}
+            {/if}
+            {#if priceString2}
+                <br/>
+                {priceString2}
+            {/if}
+            {#if priceString3}
+                <br/>
+                {priceString3}
+            {/if}
         </div>
 
         <div class="py-6">
