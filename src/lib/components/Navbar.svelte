@@ -108,27 +108,27 @@
 					{@render ListItem({
 						href: '/diensten',
 						title: 'Bekijk alle diensten',
-						className: 'bg-gray-300',
+						className: 'bg-gray-100',
 						liClassName: 'col-span-2 text-center'
 					})}
 
 					{@render ListItem({
-						href: '/diensten#service-gasketel',
+						href: '/diensten/gasketel',
 						title: 'Verwarmingsketel',
 						className: 'bg-gray-100'
 					})}
 					{@render ListItem({
-						href: '/diensten#service-stookolie',
+						href: '/diensten/stookolie',
 						title: 'Stookolieketel',
 						className: 'bg-gray-100'
 					})}
 					{@render ListItem({
-						href: '/diensten#service-warmwatertoestel',
+						href: '/diensten/warmwatertoestel',
 						title: 'Warmwater toestellen',
 						className: 'bg-gray-100'
 					})}
 					{@render ListItem({
-						href: '/diensten#service-gasleiding',
+						href: '/diensten/gasleiding',
 						title: 'Gasleidingen',
 						className: 'bg-gray-100'
 					})}
