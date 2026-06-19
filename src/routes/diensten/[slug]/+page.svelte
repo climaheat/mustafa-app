@@ -13,7 +13,7 @@
 <div class="relative z-100 gap-y-12 gap-x-8 bg-digital-blue-50 px-2 pt-2 pb-12 md:px-64">
 	<a
 		href="/diensten"
-		class="relative z-100 mx-auto mt-4 flex w-fit items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors hover:bg-digital-blue-200"
+		class="relative z-100 mx-auto mt-4 flex w-fit items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors hover:bg-digital-blue-100"
 	>
 		<ArrowLeft class="size-4" />
 		Alle diensten
