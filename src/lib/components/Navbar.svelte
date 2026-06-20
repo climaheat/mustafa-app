@@ -2,43 +2,7 @@
 	import { NavigationMenu } from 'bits-ui';
 	import CaretDown from 'phosphor-svelte/lib/CaretDown';
 	import clsx from 'clsx';
-
-	const components: { title: string; href: string; description: string }[] = [
-		{
-			title: 'Alert Dialog',
-			href: '/docs/components/alert-dialog',
-			description:
-				'A modal dialog that interrupts the user with important content and expects a response.'
-		},
-		{
-			title: 'Link Preview',
-			href: '/docs/components/link-preview',
-			description: 'For sighted users to preview content available behind a link.'
-		},
-		{
-			title: 'Progress',
-			href: '/docs/components/progress',
-			description:
-				'Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.'
-		},
-		{
-			title: 'Scroll Area',
-			href: '/docs/components/scroll-area',
-			description: 'Visually or semantically separates content.'
-		},
-		{
-			title: 'Tabs',
-			href: '/docs/components/tabs',
-			description:
-				'A set of layered sections of content—known as tab panels—that are displayed one at a time.'
-		},
-		{
-			title: 'Tooltip',
-			href: '/docs/components/tooltip',
-			description:
-				'A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.'
-		}
-	];
+	import { diensten } from '$lib/data/diensten';
 
 	type ListItemProps = {
 		className?: string;
@@ -51,14 +15,14 @@
 	let contentRef: any = $state(null);
 	let viewportRef: any = $state(null);
 	let triggerRef: any = $state(null);
-  let menuValue = $state("");
+	let menuValue = $state('');
 </script>
 
 {#snippet ListItem({ className, title, content, href, liClassName }: ListItemProps)}
 	<li class={liClassName}>
 		<NavigationMenu.Link
 			class={clsx(
-				' block space-y-1 rounded-md p-3 leading-none no-underline outline-hidden transition-colors select-none hover:text-accent-foreground focus:bg-muted focus:text-accent-foreground',
+				'flex h-full flex-col justify-center space-y-1 rounded-md p-3 leading-none no-underline outline-hidden transition-colors select-none hover:text-accent-foreground focus:bg-muted focus:text-accent-foreground',
 				className
 			)}
 			{href}
@@ -71,7 +35,10 @@
 	</li>
 {/snippet}
 
-<NavigationMenu.Root class="fixed z-1000 flex h-12 w-full justify-center bg-digital-blue-50 border border-slate-300" bind:value={menuValue}>
+<NavigationMenu.Root
+	class="fixed z-1000 flex h-12 w-full justify-center border border-slate-300 bg-digital-blue-50"
+	bind:value={menuValue}
+>
 	<NavigationMenu.List class="group flex list-none items-center justify-center p-1">
 		<NavigationMenu.Item>
 			<NavigationMenu.Link
@@ -98,40 +65,28 @@
 				onInteractOutside={(e: PointerEvent) => {
 					console.log(menuValue);
 
-          			menuValue = ""
+					menuValue = '';
 
 					console.log(menuValue);
 				}}
 				class="absolute top-0 left-0 w-full data-[motion=from-end]:animate-enter-from-right data-[motion=from-start]:animate-enter-from-left data-[motion=to-end]:animate-exit-to-right data-[motion=to-start]:animate-exit-to-left sm:w-auto"
 			>
-				<ul class="m-0 grid grid-cols-2 gap-2.5 p-3 sm:w-[500px]">
+				<ul class="m-0 grid grid-cols-2 gap-2.5 p-3 sm:w-[720px] sm:grid-cols-3">
 					{@render ListItem({
 						href: '/diensten',
 						title: 'Bekijk alle diensten',
 						className: 'bg-gray-100',
-						liClassName: 'col-span-2 text-center'
+						liClassName: 'min-h-18'
 					})}
 
-					{@render ListItem({
-						href: '/diensten/gasketel',
-						title: 'Verwarmingsketel',
-						className: 'bg-gray-100'
-					})}
-					{@render ListItem({
-						href: '/diensten/stookolie',
-						title: 'Stookolieketel',
-						className: 'bg-gray-100'
-					})}
-					{@render ListItem({
-						href: '/diensten/warmwatertoestel',
-						title: 'Warmwater toestellen',
-						className: 'bg-gray-100'
-					})}
-					{@render ListItem({
-						href: '/diensten/gasleiding',
-						title: 'Gasleidingen',
-						className: 'bg-gray-100'
-					})}
+					{#each diensten as dienst (dienst.slug)}
+						{@render ListItem({
+							href: `/diensten/${dienst.slug}`,
+							title: dienst.title,
+							className: 'bg-gray-100',
+							liClassName: 'min-h-18'
+						})}
+					{/each}
 				</ul>
 			</NavigationMenu.Content>
 		</NavigationMenu.Item>

@@ -9,6 +9,7 @@ import warmtepompIcon from 'phosphor-svelte/lib/ThermometerHot';
 import warmWaterToestelIcon from 'phosphor-svelte/lib/DeviceTabletSpeaker';
 import gasketelIcon from 'phosphor-svelte/lib/Cube';
 import gasleidingIcon from 'phosphor-svelte/lib/Pipe';
+import vaillantIcon from 'phosphor-svelte/lib/SealCheck';
 
 export type Dienst = {
 	slug: string;
@@ -103,10 +104,27 @@ export const diensten: Dienst[] = [
 		metaTitle: 'Gasleidingen - Controle, Vernieuwing & Keuring',
 		metaDescription:
 			'Controle, vernieuwing en keuring van gasleidingen met officieel attest in Antwerpen en Vlaanderen.'
+	},
+	{
+		slug: 'vaillant-specialiteit',
+		title: 'Vaillant specialiteit',
+		subtitle: 'Onderhoud, Herstellingen & Advies',
+		body: 'Heeft u een <b>Vaillant verwarmingsketel of warmwatertoestel</b>? Clima Heat Solutions heeft ervaring met onderhoud, herstellingen en advies voor Vaillant-installaties in Antwerpen en Vlaanderen.<br><br>Wij helpen met storingen, periodiek onderhoud en een duidelijke controle van uw toestel, zodat uw installatie veilig, zuinig en betrouwbaar blijft werken.<br><br><b>Belangrijk:</b> Clima Heat Solutions is niet verbonden aan, erkend door of geassocieerd met het officiële Vaillant-merk.',
+		src: gasketelImage,
+		priceString: 'Herstelling: 120€ voor 1 uur, daarna 40€ per extra halfuur.',
+		serviceIcon: vaillantIcon,
+		voordelen: [
+			'Ervaring met Vaillant-installaties',
+			'Onafhankelijk advies',
+			'Snelle diagnose bij storingen',
+			'Onderhoud met aandacht voor veiligheid en rendement'
+		],
+		metaTitle: 'Vaillant specialiteit - Onderhoud, Herstellingen & Advies',
+		metaDescription:
+			'Onafhankelijke service voor onderhoud, herstellingen en advies rond Vaillant verwarmingsketels en warmwatertoestellen in Antwerpen en Vlaanderen.'
 	}
 ];
 
-export const dienstenBySlug = Object.fromEntries(diensten.map((dienst) => [dienst.slug, dienst])) as Record<
-	string,
-	Dienst
->;
+export const dienstenBySlug = Object.fromEntries(
+	diensten.map((dienst) => [dienst.slug, dienst])
+) as Record<string, Dienst>;

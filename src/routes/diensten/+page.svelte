@@ -12,19 +12,20 @@
 	/>
 </svelte:head>
 
-<div class="relative z-100 gap-y-12 gap-x-8 bg-digital-blue-50 px-2 pt-2 pb-12 md:px-64">
+<div class="relative z-100 gap-x-8 gap-y-12 bg-digital-blue-50 px-2 pt-2 pb-12 md:px-64">
 	<div class="max-w-2lg px-4 text-justify">
 		Clima Heat Solutions biedt een complete service voor verwarming, warm water in Antwerpen en heel
 		Vlaanderen. Wij verzorgen plaatsing, onderhoud, herstellingen en keuringen met attest voor zowel
 		woningen als bedrijven. <br />
 		<br />
 
-		Onze diensten omvatten gasketels, stookolieketels, warmwatertoestellen en gasleidingen. Elk
-		project wordt uitgevoerd met aandacht voor veiligheid, kwaliteit en energie-efficiëntie, volgens
-		de geldende normen. Prijzen op de detailpagina's zijn inclusief btw.
+		Onze diensten omvatten gasketels, stookolieketels, warmwatertoestellen, gasleidingen en
+		Vaillant-specialiteit. Elk project wordt uitgevoerd met aandacht voor veiligheid, kwaliteit en
+		energie-efficiëntie, volgens de geldende normen. Prijzen op de detailpagina's zijn inclusief
+		btw.
 	</div>
 
-	<ul class="mx-auto mt-6 flex max-w-2lg flex-col gap-3 px-4">
+	<ul class="max-w-2lg mx-auto mt-6 flex flex-col gap-3 px-4">
 		{#each diensten as dienst (dienst.slug)}
 			<li>
 				<a
@@ -36,11 +37,9 @@
 							<svelte:component this={dienst.serviceIcon} class="size-7 shrink-0" />
 							{dienst.title}
 						</div>
-						<p class="text-sm font-semibold italic text-gray-700">{dienst.subtitle}</p>
+						<p class="text-sm font-semibold text-gray-700 italic">{dienst.subtitle}</p>
 					</div>
-					<ArrowRight
-						class="size-5 shrink-0 transition-transform group-hover:translate-x-1"
-					/>
+					<ArrowRight class="size-5 shrink-0 transition-transform group-hover:translate-x-1" />
 				</a>
 			</li>
 		{/each}
