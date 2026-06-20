@@ -74,7 +74,7 @@
 
 	{@render children()}
 
-	<footer class="relative z-100 border-t border-slate-300 bg-digital-blue-50 px-4 py-8 md:px-8">
+	<footer class="mt-16 lg:mt-24 relative z-100 border-t border-slate-300 bg-digital-blue-50 px-4 py-8 md:px-8">
 		<div class="mx-auto flex max-w-5xl flex-col items-center gap-4 text-center">
 			<a
 				href="https://www.instagram.com/climaheatsolutions/"
