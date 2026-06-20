@@ -51,7 +51,7 @@
 		{/if}
 	</div>
 
-	<div class="flex flex-col items-center gap-4 col-span-2 lg:col-span-1">
+	<div class="flex flex-col items-center self-center gap-4 col-span-2 lg:col-span-1">
 		<img {src} alt="Logo of heat/cold solutions company" class="w-full lg:w-90 rounded-2xl {imgClass}" />
 
 		<div class="flex flex-wrap justify-center gap-2">
