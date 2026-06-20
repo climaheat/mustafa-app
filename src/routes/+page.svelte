@@ -30,7 +30,7 @@
 </svelte:head>
 
 <div
-	class="bg-white relative z-10 mx-auto mt-6 mb-4 w-full max-w-5xl rounded-3xl px-4 py-5 md:mt-10 md:px-8 border border-slate-300"
+	class="relative z-10 mx-4 lg:mx-auto mt-6 mb-4 w-full max-w-5xl rounded-3xl border border-slate-300 bg-white px-4 py-5 md:mt-10 md:px-8"
 >
 	<div class="flex flex-col items-center justify-between gap-5 lg:flex-row">
 		<div class="flex flex-col items-center gap-2 text-center lg:items-start lg:text-left">
@@ -45,25 +45,23 @@
 			<div class="text-sm font-semibold text-digital-blue-950">
 				5 sterren op basis van 9 reviews
 			</div>
+			<div class="text-xs text-digital-blue-950/70">Aantal reviews correct op 20 juni 2026.</div>
 		</div>
 
 		<div class="grid w-full grid-cols-1 gap-3 sm:grid-cols-2 lg:w-auto lg:min-w-xl">
 			{#each trustBadges as badge}
 				<div
-					class="flex min-h-12 items-center gap-2 rounded-2xl bg-digital-blue-50 px-4 py-2 font-semibold text-digital-blue-950 border border-slate-300"
+					class="flex min-h-12 items-center gap-2 rounded-2xl border border-slate-300 bg-digital-blue-50 px-4 py-2 font-semibold text-digital-blue-950"
 				>
 					<svelte:component
 						this={badge.icon}
 						class="size-6 shrink-0 text-digital-blue-700"
 						weight="duotone"
 					/>
-					<span>{badge.label}</span>
+					<span class="text-sm">{badge.label}</span>
 				</div>
 			{/each}
 		</div>
-	</div>
-	<div class="text-center text-xs text-digital-blue-950/70 lg:text-left">
-		Aantal reviews correct op 20 juni 2026.
 	</div>
 </div>
 
