@@ -106,8 +106,7 @@
 			<img
 				src={badkamer}
 				alt="Shower"
-				class="col-span-10 min-h-80 w-full rounded-3xl object-cover md:col-span-5 md:h-full"
-			/>
+				class="col-span-10 min-h-80 w-full rounded-3xl object-cover md:col-span-5 md:mx-auto md:h-auto md:max-h-[624px] md:max-w-[504px] md:self-center"			/>
 		</div>
 
 		<div class="relative z-10 w-full rounded-3xl bg-digital-blue-200 px-6 py-8 md:px-8">
