@@ -36,7 +36,7 @@
 {/snippet}
 
 <NavigationMenu.Root
-	class="fixed z-1000 flex h-12 w-full justify-center border border-slate-300 bg-digital-blue-50"
+	class="fixed z-1000 flex h-12 w-full justify-center border-b border-slate-300 bg-digital-blue-50"
 	bind:value={menuValue}
 >
 	<NavigationMenu.List class="group flex list-none items-center justify-center p-1">

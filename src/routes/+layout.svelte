@@ -74,27 +74,27 @@
 
 	{@render children()}
 
-	<div class="relative z-100 flex pb-2 md:py-8">
-		<a
-			href="https://www.instagram.com/climaheatsolutions/"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="mx-auto"
-			title=""
-		>
-			<i class="fab fa-instagram text-3xl"></i>
-		</a>
-	</div>
+	<footer class="relative z-100 border-t border-slate-300 bg-digital-blue-50 px-4 py-8 md:px-8">
+		<div class="mx-auto flex max-w-5xl flex-col items-center gap-4 text-center">
+			<a
+				href="https://www.instagram.com/climaheatsolutions/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="flex size-12 items-center justify-center rounded-full bg-digital-blue-950 text-white shadow-mini transition hover:-translate-y-0.5"
+				title=""
+			>
+				<i class="fab fa-instagram text-2xl"></i>
+			</a>
 
-	<div class="relative z-100 flex py-2 px-2 md:px-0 text-justify">
-		<p class="mx-auto text-lg">
-			climaheatsolutions - BE1001.682.376 - Hendriklei 22 2020 Antwerpen
-		</p>
-	</div>
+			<p class="text-base font-semibold text-digital-blue-950 md:text-lg">
+				climaheatsolutions - BE1001.682.376 - Hendriklei 22 2020 Antwerpen
+			</p>
 
-	<div class="relative z-100 flex py-2 px-2 md:px-0 text-justify">
-		<p class="mx-auto text-xs">
-			Disclaimer: de inhoud van deze website is louter informatief. Aan de informatie kunnen geen rechten worden ontleend en het gebruik ervan schept geen enkele aansprakelijkheid of contractuele verbintenis.
-		</p>
-	</div>
+			<p class="max-w-4xl text-xs leading-5 text-digital-blue-950/65">
+				Disclaimer: de inhoud van deze website is louter informatief. Aan de informatie kunnen geen
+				rechten worden ontleend en het gebruik ervan schept geen enkele aansprakelijkheid of
+				contractuele verbintenis.
+			</p>
+		</div>
+	</footer>
 </div>
