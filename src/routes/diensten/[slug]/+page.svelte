@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Service from '$lib/components/Service.svelte';
+	import { Button } from 'bits-ui';
 	import ArrowLeft from 'phosphor-svelte/lib/ArrowLeft';
 
 	let { data } = $props();
@@ -11,7 +12,15 @@
 </svelte:head>
 
 <div class="relative z-100 gap-x-8 gap-y-12 bg-digital-blue-50 px-2 pt-2 pb-12 md:px-64">
-	<div class="max-w-2lg relative z-100 mx-auto grid grid-cols-1 py-8">
+	<div class="max-w-2lg relative z-100 mx-auto px-8 py-8">
+		<div class="mb-8 flex justify-center">
+			<Button.Root
+				class="inline-flex h-12 items-center justify-center rounded-input bg-dark px-6 text-[15px] font-semibold text-background shadow-mini hover:bg-dark/95 active:scale-[0.98] active:transition-all"
+			>
+				<a href="/contact">Offerte vragen</a>
+			</Button.Root>
+		</div>
+
 		<Service
 			src={data.dienst.src}
 			title={data.dienst.title}

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { diensten } from '$lib/data/diensten';
+	import { Button } from 'bits-ui';
 	import ArrowRight from 'phosphor-svelte/lib/ArrowRight';
 </script>
 
@@ -12,7 +13,7 @@
 </svelte:head>
 
 <div class="relative z-100 gap-y-12 gap-x-8 bg-digital-blue-50 px-2 pt-2 pb-12 md:px-64">
-	<div class="max-w-2lg px-8 text-justify">
+	<div class="max-w-2lg px-4 text-justify">
 		Clima Heat Solutions biedt een complete service voor verwarming, warm water in Antwerpen en heel
 		Vlaanderen. Wij verzorgen plaatsing, onderhoud, herstellingen en keuringen met attest voor zowel
 		woningen als bedrijven. <br />
@@ -23,7 +24,7 @@
 		de geldende normen. Prijzen op de detailpagina's zijn inclusief btw.
 	</div>
 
-	<ul class="mx-auto mt-8 flex max-w-2lg flex-col gap-3 px-8">
+	<ul class="mx-auto mt-6 flex max-w-2lg flex-col gap-3 px-4">
 		{#each diensten as dienst (dienst.slug)}
 			<li>
 				<a
