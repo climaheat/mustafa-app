@@ -27,7 +27,7 @@
 </svelte:head>
 
 <div class="bg-digital-blue-50 px-4 pt-6 pb-10 md:pt-10">
-	<div class="mx-auto flex w-full max-w-5xl flex-col gap-6 md:gap-10">
+	<div class="mx-auto flex w-full max-w-5xl flex-col gap-6 md:gap-10 lg:max-w-6xl">
 		<div
 			class="relative z-10 w-full rounded-3xl border border-slate-300 bg-white px-4 py-5 md:px-8"
 		>
@@ -106,7 +106,7 @@
 			<img
 				src={badkamer}
 				alt="Shower"
-				class="col-span-10 min-h-80 w-full rounded-3xl object-cover md:col-span-5 md:mx-auto md:h-auto md:max-h-[624px] md:max-w-[504px] md:self-center"
+				class="col-span-10 min-h-80 w-full rounded-3xl object-cover md:col-span-5 md:mx-auto md:h-auto md:max-h-[749px] md:max-w-[605px] md:self-center"
 			/>
 		</div>
 
