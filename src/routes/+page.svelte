@@ -45,7 +45,7 @@
 						5 sterren op basis van 9 reviews
 					</div>
 					<div class="text-xs text-digital-blue-950/70">
-						Aantal reviews correct op 20 juni 2026.
+						Aantal reviews correct op 20 juni 2026
 					</div>
 				</div>
 
