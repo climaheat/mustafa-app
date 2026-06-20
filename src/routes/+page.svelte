@@ -6,19 +6,74 @@
 	import { Button } from 'bits-ui';
 
 	import CheckFat from 'phosphor-svelte/lib/CheckFat';
+	import Certificate from 'phosphor-svelte/lib/Certificate';
+	import Lightning from 'phosphor-svelte/lib/Lightning';
+	import MapPin from 'phosphor-svelte/lib/MapPin';
+	import SealCheck from 'phosphor-svelte/lib/SealCheck';
+	import Star from 'phosphor-svelte/lib/Star';
 
-	export let pageTitle = "Home";
-  	export let pageDescription = "Welkom bij climaheatsolutions. Hier vind je informatie over onze diensten.";
+	export let pageTitle = 'Home';
+	export let pageDescription =
+		'Welkom bij climaheatsolutions. Hier vind je informatie over onze diensten.';
+
+	const trustBadges = [
+		{ label: 'Erkende technieker', icon: SealCheck },
+		{ label: 'Officieel onderhoudsattest', icon: Certificate },
+		{ label: 'Snelle service', icon: Lightning },
+		{ label: 'Werkgebied Antwerpen en omgeving', icon: MapPin }
+	];
 </script>
 
 <svelte:head>
-  <title>{pageTitle}</title>
-  <meta name="description" content={pageDescription} />
+	<title>{pageTitle}</title>
+	<meta name="description" content={pageDescription} />
 </svelte:head>
 
-<div class="justify-items-center bg-digital-blue-50 px-2 md:px-48 pt-2 pb-10">
-	<div class="relative z-10 grid grid-cols-10 place-items-center gap-x-8 gap-y-6 md:gap-y-12 md:mt-4">
-		<div class="my-0 md:my-auto h-min rounded-3xl bg-digital-blue-200 px-4 py-2 md:py-8 col-span-10 md:col-span-5">
+<div
+	class="bg-white relative z-10 mx-auto mt-6 mb-4 w-full max-w-5xl rounded-3xl px-4 py-5 md:mt-10 md:px-8 border border-slate-300"
+>
+	<div class="flex flex-col items-center justify-between gap-5 lg:flex-row">
+		<div class="flex flex-col items-center gap-2 text-center lg:items-start lg:text-left">
+			<div class="text-sm font-semibold tracking-wide text-digital-blue-800 uppercase">
+				Google Reviews
+			</div>
+			<div class="flex items-center gap-1 text-amber-500" aria-label="5 sterren Google Reviews">
+				{#each Array(5) as _}
+					<Star class="size-6 fill-current" weight="fill" />
+				{/each}
+			</div>
+			<div class="text-sm font-semibold text-digital-blue-950">
+				5 sterren op basis van 9 reviews
+			</div>
+		</div>
+
+		<div class="grid w-full grid-cols-1 gap-3 sm:grid-cols-2 lg:w-auto lg:min-w-xl">
+			{#each trustBadges as badge}
+				<div
+					class="flex min-h-12 items-center gap-2 rounded-2xl bg-digital-blue-50 px-4 py-2 font-semibold text-digital-blue-950 border border-slate-300"
+				>
+					<svelte:component
+						this={badge.icon}
+						class="size-6 shrink-0 text-digital-blue-700"
+						weight="duotone"
+					/>
+					<span>{badge.label}</span>
+				</div>
+			{/each}
+		</div>
+	</div>
+	<div class="text-center text-xs text-digital-blue-950/70 lg:text-left">
+		Aantal reviews correct op 20 juni 2026.
+	</div>
+</div>
+
+<div class="justify-items-center bg-digital-blue-50 px-2 pt-2 pb-10 md:px-48">
+	<div
+		class="relative z-10 grid grid-cols-10 place-items-center gap-x-8 gap-y-6 md:mt-4 md:gap-y-12"
+	>
+		<div
+			class="col-span-10 my-0 h-min rounded-3xl bg-digital-blue-200 px-4 py-2 md:col-span-5 md:my-auto md:py-8"
+		>
 			<div class="bold mt-4 mb-8 text-2xl font-bold italic">Clima Heat Solutions</div>
 
 			<div>
@@ -26,7 +81,8 @@
 
 				Bij Clima Heat Solutions bent u aan het juiste adres voor herstellingen en onderhoud van
 				gasketels, stookolieketels en warmwater­toestellen. Wij staan garant voor kwaliteit,
-				vakmanschap en een betrouwbare service waarop u kunt rekenen, het hele jaar door. <br /><br/>
+				vakmanschap en een betrouwbare service waarop u kunt rekenen, het hele jaar door. <br /><br
+				/>
 
 				Een goed onderhouden installatie betekent meer comfort, een lager energieverbruik en een
 				langere levensduur. Daarom werken wij nauwkeurig, veilig en volgens de geldende normen. Of
@@ -51,10 +107,16 @@
 			</div>
 		</div>
 
-		<img src={badkamer} alt="Shower" class="rounded-3xl w-full h-full md:h-100 md:w-100 col-span-10 md:col-span-5" />
+		<img
+			src={badkamer}
+			alt="Shower"
+			class="col-span-10 h-full w-full rounded-3xl md:col-span-5 md:h-100 md:w-100"
+		/>
 	</div>
 
-	<div class="mx-auto mt-6 md:mt-16 h-min w-fit rounded-3xl bg-digital-blue-200 px-8 py-8 relative z-10">
+	<div
+		class="relative z-10 mx-auto mt-6 h-min w-fit rounded-3xl bg-digital-blue-200 px-8 py-8 md:mt-16"
+	>
 		<div class="bold mt-4 mb-4 text-2xl font-bold italic">
 			Waarom Kiezen voor Ons in Antwerpen en Vlaanderen?
 			<CheckFat class="ml-2 inline-block size-12" />
