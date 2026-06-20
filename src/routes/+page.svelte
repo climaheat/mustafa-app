@@ -114,7 +114,7 @@
 			class="relative z-10 w-full rounded-3xl bg-digital-blue-200 px-6 py-8 md:mx-auto md:w-fit md:px-8"
 		>
 			<div class="mx-auto max-w-3xl">
-				<div class="bold mt-4 mb-4 text-center text-2xl font-bold italic">
+				<div class="bold mt-0 mb-4 text-center text-2xl font-bold italic">
 					<span>
 						Waarom Kiezen voor Ons in Antwerpen en Vlaanderen?
 						<CheckFat class="ml-2 hidden md:inline-block size-10 align-middle" />
