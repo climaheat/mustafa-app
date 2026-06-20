@@ -28,8 +28,11 @@
 		data-netlify="true"
 	>
 		<fieldset class="space-y-6">
-			<legend class="pb-1 text-2xl font-bold text-digital-blue-950 italic">Stuur een bericht</legend
+			<legend class="pb-1 text-2xl font-bold text-digital-blue-950">Stuur een bericht</legend
 			>
+			<p class="-mt-4 text-slate-700">
+				Vraag een offerte, of vraag extra informatie
+			</p>
 			<input type="hidden" name="form-name" value="contact" />
 
 			<div class="grid gap-4 sm:grid-cols-2">

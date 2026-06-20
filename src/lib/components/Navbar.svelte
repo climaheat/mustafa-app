@@ -71,7 +71,7 @@
 	</li>
 {/snippet}
 
-<NavigationMenu.Root class="fixed z-1000 flex h-12 w-full justify-center bg-digital-blue-100" bind:value={menuValue}>
+<NavigationMenu.Root class="fixed z-1000 flex h-12 w-full justify-center bg-digital-blue-50 border border-slate-300" bind:value={menuValue}>
 	<NavigationMenu.List class="group flex list-none items-center justify-center p-1">
 		<NavigationMenu.Item>
 			<NavigationMenu.Link
