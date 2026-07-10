@@ -7,6 +7,7 @@
 	import { Button } from 'bits-ui';
 	import PhoneNumber from '$lib/components/PhoneNumber.svelte';
 	import Phone from 'phosphor-svelte/lib/Phone';
+	import Newspaper from 'phosphor-svelte/lib/Newspaper';
 
 	let { children } = $props();
 </script>
@@ -74,17 +75,25 @@
 
 	{@render children()}
 
-	<footer class="mt-16 lg:mt-24 relative z-100 border-t border-slate-300 bg-digital-blue-50 px-4 py-8 md:px-8">
+	<footer
+		class="relative z-100 mt-16 border-t border-slate-300 bg-digital-blue-50 px-4 py-8 md:px-8 lg:mt-24"
+	>
 		<div class="mx-auto flex max-w-5xl flex-col items-center gap-4 text-center">
-			<a
-				href="https://www.instagram.com/climaheatsolutions/"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="flex size-12 items-center justify-center rounded-full bg-digital-blue-950 text-white shadow-mini transition hover:-translate-y-0.5"
-				title=""
-			>
-				<i class="fab fa-instagram text-2xl"></i>
-			</a>
+			<div class="flex flex-row gap-x-8">
+				<a
+					href="https://www.instagram.com/climaheatsolutions/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="flex size-12 items-center justify-center rounded-full bg-digital-blue-950 text-white shadow-mini transition hover:-translate-y-0.5"
+					title=""
+				>
+					<i class="fab fa-instagram text-2xl"></i>
+				</a>
+
+				<a href="/blog" class="flex my-auto bg-black rounded-full size-12 shadow-mini transition hover:-translate-y-0.5">
+					<Newspaper size="32" class="text-white mx-auto my-auto" />
+				</a>
+			</div>
 
 			<p class="text-base font-semibold text-digital-blue-950 md:text-lg">
 				climaheatsolutions - BE1001.682.376 - Hendriklei 22 2020 Antwerpen
