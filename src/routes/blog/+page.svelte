@@ -47,7 +47,7 @@
 		Ontdek nieuws over onze diensten, producten, klanten en partners
 	</p>
 
-	<div class="mx-40 mt-16 grid gap-y-8 lg:grid-cols-3 lg:gap-x-8">
+	<div class="mx-4 lg:mx-40 mt-16 grid gap-y-8 lg:grid-cols-3 lg:gap-x-8">
 		{@render partnerCard(
 			'vindflexijob',
 			"Vindflexijob is onze partner voor flexijob vacatures. Dankzij de software beheren we onze vacatures op een eenvoudige manier en kunnen we snel inspelen op drukke periodes. Zo hebben we tijdens de zomer bijvoorbeeld extra volk nodig om airco's te herstellen.",

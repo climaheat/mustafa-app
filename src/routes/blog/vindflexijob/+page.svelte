@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div class="mx-[20%] bg-digital-blue-200 p-8">
+<div class="mx-4 lg:mx-[20%] bg-digital-blue-200 p-8">
 	<h1 class="mb-8 lg:text-4xl text-2xl">Partner: vindflexijob</h1>
 
 	<p class="my-8">
